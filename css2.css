@@ -1,0 +1,56 @@
+
+
+    body {
+      place-items: center;
+      text-align: center;
+      background: hotpink;
+    }
+
+    .menu {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 80px;
+      width: 50vw;
+      line-height: 70px;
+      background: white;
+      border-radius: 9px;
+    }
+
+    .menu .nav {
+      display: flex;
+    }
+
+    .menu .nav li {
+      list-style: none;
+      flex: 1;
+      transition: all 0.4s ease;
+
+    }
+
+    .menu .nav li a {
+      color: darkred;
+        
+      display: inline-block;
+      transition: all 0.5s ease;
+      font-size: 30px;
+    }
+      .menu .nav li a.active {
+
+    transition: color 0.5s ease; /* Adicione a transição aqui também */
+  }
+
+    .menu .nav li .active {
+      color: black;
+      border-bottom: 2px solid red;
+      width: 50%;
+      border-radius: px;
+      transition:all 0.5s ease;
+    }
+
+    .menu .nav li:hover {
+      color: blueviolet;
+      transition: all 0.5s ease all;
+    }
+  
